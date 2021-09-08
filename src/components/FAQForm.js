@@ -10,7 +10,7 @@ const FAQForm = ({ handleSubmit, setQuestion, setAnswer, question, answer }) => 
             </div>
             <div className="mb-3">
                 <label htmlFor="exampleFormControlTextarea1" className="form-label">Respuesta</label>
-                <textarea className="form-control" id="answer" name="answer" value={answer} placeholder="Escribir Respuesta" rows="3" onChange={(e) => setAnswer(e.target.value)}></textarea>
+                <textarea className="form-control" id="answer" name="answer" value={answer} placeholder="Escribir una Respuesta" rows="3" onChange={(e) => setAnswer(e.target.value)}></textarea>
             </div>
             <div className="d-grid gap-2">
                 <button className="btn btn-outline-primary btn-sm py-3">Registrar Pregunta</button>
